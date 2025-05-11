@@ -9,16 +9,13 @@ applications. It offers a modern build setup with no configuration.
 ## Quick Start
 
 ```sh
-npx create-react-app my-app
+npm create vite@latest my-app -- --template react
 cd my-app
-npm start
+npm install
+npm run dev
 ```
 
-> If you've previously installed `create-react-app` globally via `npm install -g create-react-app`, we recommend you uninstall the package using `npm uninstall -g create-react-app` or `yarn global remove create-react-app` to ensure that `npx` always uses the latest version.
-
-_([npx](https://medium.com/@maybekatz/introducing-npx-an-npm-package-runner-55f7d4bd282b) comes with npm 5.2+ and higher, see [instructions for older npm versions](https://gist.github.com/gaearon/4064d3c23a77c74a3614c498a8bb1c5f))_
-
-Then open [http://localhost:3000/](http://localhost:3000/) to see your app.
+Then open [http://localhost:5173/](http://localhost:5173/)) to see your app.
 
 When you’re ready to deploy to production, create a minified bundle with `npm run build`.
 
@@ -32,7 +29,7 @@ You **don’t** need to install or configure tools like webpack or Babel. They a
 
 Create a project, and you’re good to go.
 
-## Creating an App
+## Creating an App in less efficient legacy ways, without using Vite
 
 **You’ll need to have Node >= 14 on your local development machine** (but it’s not required on the server). You can use [nvm](https://github.com/creationix/nvm#installation) (macOS/Linux) or [nvm-windows](https://github.com/coreybutler/nvm-windows#node-version-manager-nvm-for-windows) to switch Node versions between different projects.
 
